@@ -6,6 +6,7 @@
       <class name="assignment1.mavenn.Basic">
         <methods>
           <include name="chrome"/>
+          <include name="edge"/>
           <include name="main"/>
         </methods>
       </class> <!-- assignment1.mavenn.Basic -->

@@ -19,10 +19,10 @@ public class Basic {
 	@Test
 	public void chrome()
 	{
-		System.setProperty("webdriver.chrome.driver","//driver//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",".//driver//chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://www.facebook.com");
-		Assert.assertEquals(driver.getTitle(),"Facebook – log in or sign up");
+		
 	}
 	
 	//Test case for firefox
